@@ -1,0 +1,12 @@
+<%# Now, we need to create a form for a user to list a new puppy that is available for adoption. %>
+<%# You can create this form in views/create_puppy.erb. %>
+<%# Remember, you'll need to set up another controller action for a user to be able to view this %>
+<%# form in the browser. Another reminder: the "submit" button of a form is an <input> element with %>
+<%# a type of "submit", not a <button> element. %>
+
+<form method="POST" action="/">
+      <p>Puppy Name: <input type="text" name="name"></p>
+      <p>Puppy Breed: <input type="text" name="breed"></p>
+      <p>Puppy Age: <input type="text" name="age"></p>
+      <input type="submit">
+</form>
